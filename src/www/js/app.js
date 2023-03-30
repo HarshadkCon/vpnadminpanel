@@ -270,7 +270,7 @@ new Vue({
 
     Promise.resolve().then(async () => {
       const currentRelease = await this.api.getRelease();
-      const latestRelease = await fetch('https://github.com/HarshadkCon/vpnadminpanel/blob/d595ab91097a9a511a7080c5829a1e9565bb0b3a/docs/changelog.json')
+      const latestRelease = await fetch('https://harshadkcon.github.io/vpnadminpanel/changelog.json')
         .then(res => res.json())
         .then(releases => {
           const releasesArray = Object.entries(releases).map(([version, changelog]) => ({
