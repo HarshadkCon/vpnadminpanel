@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  adminpanel:
+    image: adminpanel
+    command: npm run serve
+    volumes:
+      - ./src/:/app/
+    environment: 
+      # - PASSWORD=p
+      - WG_HOST=localhost
