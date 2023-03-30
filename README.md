@@ -48,8 +48,8 @@ $ docker run -d \
   -e WG_HOST=<b>🚨YOUR_SERVER_IP</b> \
   -e PASSWORD=<b>🚨YOUR_ADMIN_PASSWORD</b> \
   -v ~/.wg-easy:/etc/wireguard \
-  -p 51820:51820/udp 🚨change host port as required </b>\
-  -p 51821:51821/tcp 🚨change host port as required </b>\
+  -p 51820:51820/udp <b>🚨change host port as required </b>\
+  -p 51821:51821/tcp <b>🚨change host port as required </b>\
   --cap-add=NET_ADMIN \
   --cap-add=SYS_MODULE \
   --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
