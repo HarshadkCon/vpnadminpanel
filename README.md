@@ -1,6 +1,8 @@
 # WireGuard VPN Admin Panel
 
-You have found the easiest way to install & manage WireGuard on any Linux host!
+inspired from --- https://github.com/WeeJeWel/wg-easy
+
+Easiest way to install & manage WireGuard on any Linux host !!!
 
 <p align="center">
   <img src="./assets/1.png" width="802" />
